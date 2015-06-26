@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title> Library Lookup| WorldCat </title>
+    <link rel="stylesheet" href="css/foundation.css" />
+
+  </head>
+  <body >
+  
+  <nav class = "top-bar">		
+		<ul class="title-area">
+			<li class = "name"> <H1> <a href="index.html"> Harsha's Library Lookup </a></H1> </li>
+		</ul>
+		
+		<section class = "top-bar-section">
+			<ul class="right">
+					<li> <a href="http://xisbn.worldcat.org/xisbnadmin/doc/api.htm" target="_blank">Powered by WorldCat.org </a></li>
+			</ul>
+		</section>
+  </nav>
+  
+  <br>  
+	<div class="row" align="center">
+		<img src="./lib.jpg" alt = "Library Lookup"></img>
+	</div>
+  <br>
+  
+	<form id="myForm" autocomplete="on">
+      <div class="row panel"align = "center">
+          
+          <div class="large-12 columns">
+			  <H3> Enter the ISBN: </H3>
+			  <input type="Text" id="ISBN" name="ISBN" value="">
+			  <input type="Submit" class="small round button" value="Search">
+			</div>
+      </div>
+	  
+	</form>
+
+       <div class="row panel" id="secondframe">
+			<div class="large-12 columns">
+			  <ul id="items"></ul>
+			</div>
+      </div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/script.js"></script>
+  </body>
+</html>
