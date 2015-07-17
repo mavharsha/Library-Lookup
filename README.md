@@ -1,4 +1,4 @@
-# Library-Lookup
+# [Library-Lookup] (http://goo.gl/oPb0Ny)
 
 Library-Lookup is powered by [WorldCat WebAPI](http://xisbn.worldcat.org/xisbnadmin/doc/api.htm)
 
